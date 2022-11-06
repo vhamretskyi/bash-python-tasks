@@ -1,3 +1,5 @@
+#!/bin/bash
+
 
 if [[ $1 != "-i" ]] || [[ $3 != "-o" ]] ; then
         echo "Invalidt tet"
