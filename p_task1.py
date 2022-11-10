@@ -9,7 +9,9 @@ def get_extension(pytest):
         print(extension)
     except IndexError:
         print("No extension found")
-        raise
+        raise   
+    #except as e:
+    #    print(f"Unexpected error: {e}"
     except:
         print("Unexpected error:", sys.exc_info()[0])
     
