@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 for((i=0;i<=100;i++))
 do
 
@@ -21,7 +19,5 @@ else
 echo "$i"
 
 fi
-
-
 
 done

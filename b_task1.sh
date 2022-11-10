@@ -1,9 +1,5 @@
 #!/bin/bash
 
-
-
-
-
 echo "Write how many fib you want to see:"
 read n
 echo "Fib series:"

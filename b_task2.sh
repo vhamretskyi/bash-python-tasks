@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 function add {
     sum=0
     for i in $@
@@ -9,17 +8,15 @@ function add {
     done
     echo $sum
 }
-
+#substract function
 function substract {
-    diff=$1
+    sum=$1
+    shift
     for i in $@
     do
-        if [ $i != $1 ]
-        then
-            diff=$((diff-i))
-        fi
+        sum=$((sum-i))
     done
-    echo $diff
+    echo $sum
 }
 
 function multiply {
